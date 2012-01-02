@@ -1,0 +1,67 @@
+HPDETECTOR
+Version 0.1 (December 8th, 2008)
+Copyright © 2008 Michael Landi
+
+================================================================================
+INFORMATION
+================================================================================
+	HPDetector is a free application which specializes in detecting hidden
+backdoor TCP/UDP ports.  HPDetector uses a two step process to detect hidden
+ports.  First, HPDetector gathers port usage information from either the kernel
+or through the 'netstat' utility.  Next, HPDetector attempts to bind to every
+port on the system, one at a time.  The reason for binding to every port is that
+an exception is thrown when HPDetector attempts to bind to a port that is
+already in use.  HPDetector keeps track of the port number it was binding to
+whenever a "port in use" exception is thrown.  To determine which ports are
+hidden, HPDetector compares the kernel/netstat exported list of ports with the
+list gathered from binding exceptions.  If a port caused a binding exception but
+is not shown in the kernel/netstat list then it is probably a hidden port.  This
+program essentially catches the operating system in a "lie" about which ports
+are bound to interface.
+
+================================================================================
+LICENSE
+================================================================================
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+================================================================================
+OPERATING SYSTEM SPECIFIC INFORMATION
+================================================================================
+LINUX
+	The Linux version of this software is written in JAVA and compiled with
+GCJ into a binary executable.  The Linux version relies on the kernel's
+exported port data to determine port usage; "/proc/net/tcp" and "/proc/net/udp".
+You MUST execute this application with root priviledges or HPDetector will
+report ports 1 - 1023 as hidden (by default a non-root application cannot bind
+to ports below 1024).  This application relies on the GCJ library available from
+"http://gcc.gnu.org/java/".
+
+================================================================================
+MISCELLANEOUS
+================================================================================
+	You should close as many internet and network dependent services as possible
+prior to running this application.  If you use networking applications while
+HPDetector is probing ports you may get inconsistent reports, showing
+non-existant hidden backdoor ports.
+	What does it mean if HPDetector reports a hidden port?  This can mean
+several things.  First, it can be a sign that your 'netstat' executable or
+your kernel has been altered.  Secondly, it can mean that an application
+creating a socket after the initial 'netstat' or kernel reading.  These
+results should be treated as a warning sign that something deeper may be
+compromising your computer; specifically, something at the operating system 
+level.
+
+Happy [port] hunting,
+	Michael Landi (mlandi.design@gmail.com)
+	Email me for feature requests, questions, comments, etc.

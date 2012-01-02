@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <asmv2:trustInfo xmlns:asmv2="urn:schemas-microsoft-com:asm.v2">
+    <asmv2:security>
+      <asmv2:requestedPrivileges>
+        <asmv2:requestedExecutionLevel level="requireAdministrator" />
+      </asmv2:requestedPrivileges>
+    </asmv2:security>
+  </asmv2:trustInfo>
+</assembly>

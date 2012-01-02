@@ -1,0 +1,27 @@
+C:\Users\Mike\Documents\Visual Studio 2005\Projects\HPDetector\HPDetector\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mike\Documents\Visual Studio 2005\Projects\HPDetector\HPDetector\obj\Debug\HPDetector.Properties.Resources.resources
+C:\Users\Mike\Documents\Visual Studio 2005\Projects\HPDetector\HPDetector\obj\Debug\HPDetector.csproj.GenerateResource.Cache
+C:\Users\Mike\Documents\Visual Studio 2005\Projects\HPDetector\HPDetector\bin\Debug\HPDetector.exe
+C:\Users\Mike\Documents\Visual Studio 2005\Projects\HPDetector\HPDetector\bin\Debug\HPDetector.pdb
+C:\Users\Mike\Documents\Visual Studio 2005\Projects\HPDetector\HPDetector\obj\Debug\HPDetector.exe
+C:\Users\Mike\Documents\Visual Studio 2005\Projects\HPDetector\HPDetector\obj\Debug\HPDetector.pdb
+C:\Users\Mike\Documents\Visual Studio 2005\Projects\HPDetector\HPDetector\obj\Debug\HPDetector.frmMain.resources
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\bin\Debug\HPDetector.exe
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\bin\Debug\HPDetector.pdb
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Debug\ResolveAssemblyReference.cache
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Debug\HPDetector.frmMain.resources
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Debug\HPDetector.Properties.Resources.resources
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Debug\HPDetector.csproj.GenerateResource.Cache
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Debug\HPDetector.exe
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Debug\HPDetector.pdb
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Debug\HPDetector.frmAbout.resources
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\bin\Release\COPYING
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\bin\Release\HPDetector.exe
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\bin\Release\HPDetector.pdb
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Release\ResolveAssemblyReference.cache
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Release\HPDetector.frmAbout.resources
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Release\HPDetector.frmMain.resources
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Release\HPDetector.Properties.Resources.resources
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Release\HPDetector.csproj.GenerateResource.Cache
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Release\HPDetector.exe
+G:\Projects\HPDetector\hpdetecor_windows\HPDetector\obj\Release\HPDetector.pdb

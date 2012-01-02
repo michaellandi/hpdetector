@@ -1,0 +1,27 @@
+HPDETECTOR
+Copyright © 2008 Michael Landi
+
+================================================================================
+INSTALLATION
+================================================================================
+	This program can either be installed via binary copy or run with the 
+JAVA Runtime Environment (JDK).  Note:  the binary copy requires that the GCJ
+library be installed: "http://gcc.gnu.org/java/".
+
+BINARY INSTALL:
+	#su -
+	#cp ./bin/hpdetector /bin/hpdetector
+	
+================================================================================
+EXECUTION
+================================================================================
+	To run the program simply execute it WITH root priviledges.
+	
+BINARY:
+	#su -
+	#/bin/hpdetector
+	
+JAVA RUNTIME ENVIRONMENT
+	#su -
+	#cd ./class
+	#java HPDetector
