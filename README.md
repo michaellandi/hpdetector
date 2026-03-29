@@ -53,4 +53,4 @@ hpdetector_linux/
 
 ## License
 
-GNU General Public License v3. See [COPYING](COPYING) for details.
+MIT License. See [LICENSE](LICENSE) for details.
