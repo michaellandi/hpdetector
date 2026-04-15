@@ -1,5 +1,7 @@
 # HPDetector
 
+Last updated: April 15, 2026
+
 **HPDetector** is a hidden port detector that catches inconsistencies between what the operating system reports as bound ports and what is actually bound — a common sign of a rootkit hiding a backdoor.
 
 It works by attempting to bind to every TCP and UDP port (1–65535). If a port throws a binding exception (meaning something is already bound to it) but does not appear in the OS port list (`netstat` on Windows, `/proc/net/tcp` and `/proc/net/udp` on Linux), it is flagged as a hidden port.
